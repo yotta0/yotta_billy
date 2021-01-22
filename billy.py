@@ -1,14 +1,20 @@
+# Os imports
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
+
+
+# apresentação 
 
 print("="*50)
 print('''Bem vindo ao Billy \nDesenvolvido por Davi "yotta" Almeida ''')
 print("="*50)
 driver = webdriver.Chrome(executable_path=r"C:\Program Files\Dev\chromedriver.exe")
 
+
+# Login
 name_login = "uabb-lf-name"
-passw_login = "uabb-lf-password"
+passw_login = "uabb-lf-password"  
 
 login = "davicastroti@hotmail.com"
 passw = "jdac455247rd1414."
