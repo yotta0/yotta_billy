@@ -9,16 +9,18 @@ driver = webdriver.Chrome(executable_path=r"C:\Program Files\Dev\chromedriver.ex
 
 name_login = "uabb-lf-name"
 passw_login = "uabb-lf-password"
-name_user = "davicastroti@hotmail.com"
-passw_user = "Jdac455247rd1414."
+
+login = "davicastroti@hotmail.com"
+passw = "jdac455247rd1414."
 
 driver.get("https://www.cursoemvideo.com/login/")
 
-element_name = driver.find_element_by_name(name_login)
-element_passw = driver.find_element_by_name(passw_user)
+input_login = driver.find_element_by_name(name_login)
+input_passw = driver.find_element_by_name(passw_login)
+input_login.send_keys(login)
+input_passw.send_keys(passw + Keys.RETURN)
 
-element_name.send_keys(name_user)
-
+sleep(2)
 
 def test():
 
