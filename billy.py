@@ -20,7 +20,13 @@ element_passw = driver.find_element_by_name(passw_user)
 element_name.send_keys(name_user)
 
 
+def test():
 
+    driver.get("https://www.cursoemvideo.com/course/html5/")
+    sleep(5)
+    driver.get("https://www.cursoemvideo.com/minha-conta/")
+    sleep(5)
+    driver.get("https://www.cursoemvideo.com/course/html5/")
 
 
 
