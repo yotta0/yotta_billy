@@ -31,3 +31,5 @@ def test():
 
 
 
+while True:
+    test()
