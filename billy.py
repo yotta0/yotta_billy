@@ -17,7 +17,7 @@ name_login = "uabb-lf-name"
 passw_login = "uabb-lf-password"  
 
 login = "davicastroti@hotmail.com"
-passw = "jdac455247rd1414."
+passw = "senha"
 
 driver.get("https://www.cursoemvideo.com/login/")
 
