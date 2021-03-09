@@ -5,7 +5,7 @@ from time import sleep
 
 
 # apresentação 
-
+print("To no projeto Social")
 print("="*50)
 print('''Bem vindo ao Billy \nDesenvolvido por Davi "yotta" Almeida ''')
 print("="*50)
